@@ -1,0 +1,35 @@
+@media (max-width: 991px) {
+nav .nav-link {
+    background-color: var(--dark_color); 
+    width: 20%;
+    margin-left: auto;
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 1;
+    padding-left: 10px;
+}
+}
+@media (max-width:320px){
+    .pricing{
+        margin:0px 50px;
+    }
+    .about-us-section{
+        margin:0px 40px;
+    }
+}
+@media (max-width:574px){
+    .pricing{
+        margin:0px 80px;
+    }
+    .about-us-section{
+        margin:0px 70px;
+    }
+}
+@media (max-width:375px){
+    .pricing{
+        margin:0px 60px;
+    }
+    .about-us-section{
+        margin:0px 50px;
+    }
+}
