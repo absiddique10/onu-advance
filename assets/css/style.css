@@ -28,7 +28,7 @@ ul{
 }
 /* common code end */
 /* navbar section start */
-nav .navbar{
+.navbar{
     height: 100px;
   }
 nav .navbar-nav .nav-link.active,nav .nav-link:hover{
@@ -107,8 +107,14 @@ header{
 .services-content-item .overlay-content a:hover{
     background: var(--brand_color);
 }
+.services-section .content-area img{
+    width: 100%;
+}
 /* services section end */
 /* our-portfolio section start */
+.our-portfolio-section .content-area img{
+    width: 100%;
+}
 .our-portfolio-section ul li{
     margin-right: 10px;
     margin-top: 5px;
@@ -208,7 +214,8 @@ header{
 /* pricing section end */
 /* counter-section start */
 .counter-section{
-    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../photos/banner-01.jpg);
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(../photos/banner-01.jpg) no-repeat;
+    background-size: cover;
     color: var(--white_color);
 }
 /* counter-section end */
